@@ -1,0 +1,40 @@
+body {
+	background-color: lightgray;
+	color: black;
+}
+
+header {
+	background-color: cadetblue;
+	padding: 0;
+	display: flex;
+}
+
+h2 {
+	font-size: 1.7rem;
+	margin: 50px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+}
+
+.photo {
+	width: 400px;
+	height: 150px;
+}
+
+footer {
+	background-color: cadetblue;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.container {
+	font-size: 1.2rem;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BookSwap - Платформа для обмена книгами</title>  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  	integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+  	integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <style>
+	body {
+		font-size: 1.3rem;
+	}
+	.jumbotron {
+      text-align: center;
+      background-color: #f8f9fa;
+      padding: 2rem;
+    }
+    .navbar-brand {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .nav-link {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+		<div class="d-flex">
+            <img style="width: 5em; height: 5em;" class="rounded-pill" src="images/logo.png">
+			<h1>BookSwap</h1>
+        </div>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+	  			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="container my-5">
+    <div class="jumbotron">
+      <h1>Добро пожаловать на BookSwap!</h1>
+      <br><a href="#" class="btn btn-primary btn-lg">Начать обмен</a>
+    </div>
+  </div>
+  <div id="about" class="container my-5">
+    <h2>О проекте</h2>
+    <p>
+		BookSwap - это инновационная онлайн-платформа, созданная для удобного обмена книгами между любителями чтения.<br>
+		<br>Основная цель BookSwap состоит в том, чтобы пользователи могли обмениваться своими любимыми книгами, находить 
+		новые издания и расширять свою коллекцию, взаимодействуя при этом с другими участниками сообщества.
+	</p>
+  </div>
+
+  <div id="advantages" class="container my-5">
+    <h2>Преимущества</h2>
+    <p>
+		1. Обменная площадка: BookSwap создает уникальное пространство для обмена книгами, позволяя пользователям 
+		эффективно обмениваться своими книгами без необходимости покупки или продажи.
+		<br>2. Расширение коллекции: Пользователи могут легко находить интересные книги, которые им хотелось бы прочитать, 
+			и обмениваться уже прочитанными изданиями, благодаря чему у них появляется доступ к новым книгам без затрат.
+		<br>3. Сообщество книжных любителей: BookSwap объединяет людей, увлеченных чтением, в одной платформе, где они могут
+		 	делиться впечатлениями о книгах, рекомендациями и общаться друг с другом.
+		<br>4. Экологичность: Позволяя обмениваться книгами, BookSwap способствует сохранению природных ресурсов и снижению 
+			использования бумаги.
+		<br>5. Простота использования: Интуитивно понятный интерфейс и удобные инструменты позволяют легко загружать свои книги, 
+			находить желаемые издания и устанавливать контакт с другими участниками для обмена.
+	</p>
+  </div>
+</body>
+
+<footer>
+	<h2 class="text-center">Обратная связь</h2>
+		<div class="container my-4 d-flex justify-content-center">
+			<form>
+		  		<div class="mb-3">
+					<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Почта">
+		  		</div>
+		  		<div class="mb-3">
+					<input type="password" class="form-control" id="password" placeholder="Пароль">
+		  		</div>
+		  		<div class="mb-3">
+					<textarea class="form-control" id="message" rows="2" placeholder="Сообщение"></textarea>
+		  		</div>
+		  		<div class="mb-3">
+		  			<button type="submit" class="btn btn-primary">Отправить</button>
+				</div>
+				<br>Свяжитесь с нами: info@bookswap.com
+			</form>
+	  	</div>
+</footer>
+</html>

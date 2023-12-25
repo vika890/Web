@@ -1,0 +1,59 @@
+body{
+	color: green;
+	font-size: 22px;
+}
+
+header {
+	background-color: cadetblue;
+	padding: 15px;
+	display: block; 
+	text-align: center;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header a {
+	margin: 40px;
+}
+  
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+.menu a:hover { 
+	color:chartreuse;
+}
+
+.selected {
+	color: blue;
+	text-decoration: none;
+	background-color:beige;
+}
+
+footer {
+	background-color: cadetblue;
+	color: black;
+	padding: 15px;
+	margin-top: 70px;
+	display: block; 
+	text-align: center;
+	font-size: 25px;
+}
+
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 20px;
+    margin-right: 10px;
+}
+td, th {
+	border: 1px solid black;
+	padding: 5px;
+}
